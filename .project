@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>OISHI</name>
+	<name>uikitcomponent</name>
 	<comment></comment>
 	<projects>
+		<project>Area80StarlingLibrary</project>
+		<project>Area80UIKit</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -10,16 +12,8 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-		<buildCommand>
-			<name>com.adobe.flexbuilder.project.apollobuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.adobe.flexide.project.multiplatform.multiplatformasnature</nature>
-		<nature>com.adobe.flexide.project.multiplatform.multiplatformnature</nature>
-		<nature>com.adobe.flexbuilder.project.apollonature</nature>
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 	</natures>
 </projectDescription>
